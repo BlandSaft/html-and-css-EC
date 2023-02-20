@@ -1,0 +1,47 @@
+
+.b-theme{
+  background-color: #20D3C2;
+}
+.f-theme{
+  color: #20D3C2;
+}
+
+a{
+  color: white !important;
+  text-decoration: none;
+}
+a:hover{
+  color: #20D3C2 !important;
+  background-color: white;
+}
+
+
+.top-bar{
+  min-width: 400px;
+  display: flex;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  justify-content: space-evenly;
+
+
+}
+
+.top-bar-box-left{
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.top-bar-box-right{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.border{
+  border-color: black !important;
+}
