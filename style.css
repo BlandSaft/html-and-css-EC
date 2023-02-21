@@ -9,12 +9,17 @@
 
 
 .top-bar{
-  min-width: 400px;
   display: flex;
   height: 40px;
   font-size: 16px;
   color: white;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.top-bar-inside{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
 }
 
 .top-bar-box-left{
@@ -42,18 +47,61 @@
 .middle-top-bar{
   display: flex;
   height: 106px;
-  justify-content: space-around;
+
+  justify-content: center;
   align-items: center;
 }
+
+.middle-top-bar-inside{
+  display: flex;
+  height: 106px;
+  width: 900px;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
 .shopping-cart{
   display: flex;
   justify-content: space-around;
   width: 300px;
   align-items: center;
 }
+.shopping-cart a{
+  color: black; 
+  text-decoration: none;
+  
+}
 
+.searchbutton{
+  width: 35%;
+}
 
+form.searchbutton input[type=text]{
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #E3E3E3;
+  float: left;
+  width: 80%;
+  background: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 
+form.searchbutton button{
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background: #20D3C2;
+  color: white;
+  font-size: 14px;
+  border: 1px solid #E3E3E3;
+  border-left: none;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
 
 
 
