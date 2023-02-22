@@ -6,6 +6,13 @@
   color: #20D3C2;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #16867b;
+}
 
 
 .top-bar{
@@ -147,6 +154,53 @@ form.searchbutton button{
   font-weight: bold;
   text-decoration: none;
 }
+
+.website-banner{
+  display: flex;
+  background-color: #EEEEEE;
+  justify-content: center;
+  align-items: center;
+}
+.website-banner-2{
+  display: flex;
+}
+
+.website-banner-text{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 40%;
+}
+
+.text-1{
+  font-size: 60px;
+  color: #0E153D;
+
+}
+
+.text-1 p{
+  margin: 0;
+  color: #20D3C2;
+  font-weight: bold;
+}
+
+.text-2{
+  max-width: 400px;
+  margin: 20px 0px 20px 0px; 
+}
+
+.text-3{
+  background-color: white;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  color: #20D3C2;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+
+
 
 
 
