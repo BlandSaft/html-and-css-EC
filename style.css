@@ -50,6 +50,7 @@
 
   justify-content: center;
   align-items: center;
+  
 }
 
 .middle-top-bar-inside{
@@ -103,8 +104,49 @@ form.searchbutton button{
 
 }
 
+.bottom-top-bar{
+  display: flex;
+  height: 50px;
 
+  justify-content: center;
+}
 
+.bottom-top-bar-inside{
+  display: flex;
+  height: 50px;
+  width: 900px;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-top-bar-inside a:hover{
+  color: #16867b;
+
+}
+
+.bottom-top-bar-inside-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #20D3C2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  height: 50px;
+  width: 200px;
+}
+.bottom-top-bar-inside-2{
+  
+  background-color: #20D3C2;
+  border-radius: 20px;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 
 
