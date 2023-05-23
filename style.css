@@ -26,6 +26,7 @@ p{
 
 .top-bar{
   display: flex;
+  
   height: 40px;
   font-size: 16px;
   color: white;
@@ -58,7 +59,10 @@ p{
 .top-bar-box-right a{
   color: white !important;
   text-decoration: none;
+  border-radius: 5%;
 }
+
+
 
 .middle-top-bar{
   display: flex;
@@ -67,6 +71,10 @@ p{
   justify-content: center;
   align-items: center;
   
+}
+
+.searchbutton:hover #search-icon{
+ color: #16867b;
 }
 
 .middle-top-bar-inside{
@@ -270,6 +278,8 @@ form.searchbutton button{
   margin: 10px;
 }
 
+
+/* Grid-boxes starts here */
 .grid-container{
   display: grid;
   grid-template-columns: repeat(5, 214px);
@@ -351,7 +361,6 @@ form.searchbutton button{
   display: flex;
   justify-content: start;
   align-items: end;
-  height: 40px;
   width: 50%;
   background-color: rgba(14, 21, 61, 0.85);
   color: #20D3C2;
@@ -359,13 +368,13 @@ form.searchbutton button{
   padding: 10px;
   border-top-right-radius: 10px;
   font-size: 16px;
+  overflow: hidden;
 }
 
 .grid-box-text2{
   display: flex;
   justify-content: start;
   align-items: end;
-  height: 60px;
   width: 50%;
   background-color: rgba(14, 21, 61, 0.85);
   color: #20D3C2;
@@ -375,6 +384,17 @@ form.searchbutton button{
   font-size: 16px;
 }
 
+.grid-box-text2-inside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-p {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+}
 /* REMOVE THIS WHEN DONE */
 .border{
   border: black;
