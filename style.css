@@ -390,12 +390,53 @@ form.searchbutton button{
 
 .new-arrival-box{
   background-color: #EEEEEE;
-  margin: 0px 30px 0px 30px;
-}
-.new-arrival-box img{
-  max-height: 350px;
+  margin: 0px 25px 0px 25px;
 }
 
+.new-arrivals-text{
+  background-color: #0E153D;
+  color: white;
+  height: 51px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.new-arrival-box-1{
+  
+}
+
+.new-arrival-box-2{
+  display: flex;
+  position: relative;
+  background-color: #0e153dda;
+  z-index: 1;
+  width: 350px;
+  height: 400px;
+  
+}
+
+.new-arrivals-box-2-text{
+  display: flex;
+  color: white;
+  align-items: end;
+}
+
+.new-arrival-box-2 img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  
+  
+}
+
+.new-arrival-box-2-text{
+  
+}
+
+.new-arrival-box-3{
+  
+}
 .container-new-arrivals{
   justify-content: center;
 }
