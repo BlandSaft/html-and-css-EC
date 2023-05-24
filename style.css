@@ -26,7 +26,6 @@ p{
 
 .top-bar{
   display: flex;
-  
   height: 40px;
   font-size: 16px;
   color: white;
@@ -62,15 +61,11 @@ p{
   border-radius: 5%;
 }
 
-
-
 .middle-top-bar{
   display: flex;
   height: 106px;
-
   justify-content: center;
   align-items: center;
-  
 }
 
 .searchbutton:hover #search-icon{
@@ -81,7 +76,6 @@ p{
   display: flex;
   height: 106px;
   width: 900px;
-  
   justify-content: space-between;
   align-items: center;
 }
@@ -95,7 +89,6 @@ p{
 .shopping-cart a{
   color: black; 
   text-decoration: none;
-  
 }
 
 .searchbutton{
@@ -125,7 +118,6 @@ form.searchbutton button{
   cursor: pointer;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-
 }
 
 .bottom-top-bar{
@@ -146,7 +138,6 @@ form.searchbutton button{
 
 .bottom-top-bar-inside a:hover{
   color: #16867b;
-
 }
 
 .bottom-top-bar-inside-1{
@@ -195,7 +186,6 @@ form.searchbutton button{
 .text-1{
   font-size: 60px;
   color: #0E153D;
-
 }
 
 .text-1 p{
@@ -203,7 +193,6 @@ form.searchbutton button{
   color: #20D3C2;
   font-weight: bold;
   font-size: 60px;
-  
 }
 
 .text-2{
@@ -256,7 +245,7 @@ form.searchbutton button{
   font-weight: normal;
 }
 
-.title-for-grid{
+.title-for-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -264,14 +253,15 @@ form.searchbutton button{
   font-size: 36px;
 
 }
-.title-for-grid span{
+.title-for-container span{
   color: #20D3C2;
 }
-.title-for-grid h1{
+.title-for-container h1{
+  font-family: 'Play', sans-serif;
   margin: 10px;
   font-size: 36px;
 }
-.title-for-grid img{
+.title-for-container img{
   margin: 10px;
 }
 .title-for-grid p{
@@ -394,6 +384,20 @@ form.searchbutton button{
   color: white;
   font-size: 14px;
   font-weight: normal;
+}
+
+/* NEW ARRIVALS */
+
+.new-arrival-box{
+  background-color: #EEEEEE;
+  margin: 0px 30px 0px 30px;
+}
+.new-arrival-box img{
+  max-height: 350px;
+}
+
+.container-new-arrivals{
+  justify-content: center;
 }
 /* REMOVE THIS WHEN DONE */
 .border{
