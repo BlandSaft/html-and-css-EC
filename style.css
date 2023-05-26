@@ -388,59 +388,78 @@ form.searchbutton button{
 
 /* NEW ARRIVALS */
 
-.new-arrival-box{
-  background-color: #EEEEEE;
-  margin: 0px 25px 0px 25px;
-}
-
-.new-arrivals-text{
-  background-color: #0E153D;
-  color: white;
-  height: 51px;
-  font-size: 18px;
-  padding: 10px;
-}
-
-.new-arrival-box-1{
-  
-}
-
-.new-arrival-box-2{
-  display: flex;
-  position: relative;
-  background-color: #0e153dda;
-  z-index: 1;
-  width: 350px;
-  height: 400px;
-  
-}
-
-.new-arrivals-box-2-text{
-  display: flex;
-  color: white;
-  align-items: end;
-}
-
-.new-arrival-box-2 img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  
-  
-}
-
-.new-arrival-box-2-text{
-  
-}
-
-.new-arrival-box-3{
-  
-}
-.container-new-arrivals{
+.row{
   justify-content: center;
 }
-/* REMOVE THIS WHEN DONE */
-.border{
-  border: black;
+
+.fa-cart-shopping{
+  font-size: 0.9em;
 }
+
+.card{
+  position: relative;
+  height: 400px;
+  width: 350px;
+  overflow: hidden;
+  background-color: #EEEEEE;
+  margin: 20px;
+}
+
+.card-img img{
+  position: absolute;
+  right: 0;
+}
+
+.card-menu{
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  list-style: none;
+  padding: 0.5rem;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  z-index: 1;
+  transition: top 0.3s ease-in-out;
+}
+  .card:hover .card-menu{
+    top: 20px; 
+  }
+
+  .card-menu li a {
+    color: #AAAAAA;
+  }
+    .card-menu li a:hover{
+      color: #20D3C2;
+    }
+
+.not-in-stock{
+  color: #FE6C6C;
+}
+
+.card-body{
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  z-index: 1;
+  transition: bottom 0.3s ease-in-out;
+}
+  .card:hover .card-body{
+    bottom: 25%; 
+  }
+
+.card-background{
+  position: absolute;
+  background-color: #0E153D;
+  height: 15%;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+  .card:hover .card-background{
+    height: 100%;
+    opacity: 0.85;
+  }
+
