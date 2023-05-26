@@ -405,7 +405,7 @@ form.searchbutton button{
   margin: 20px;
 }
 
-.card-img img{
+.card > img{
   position: absolute;
   right: 0;
 }
@@ -420,7 +420,7 @@ form.searchbutton button{
   font-size: 20px;
   border-radius: 25px;
   background-color: #ffffff;
-  z-index: 1;
+  z-index: 2;
   transition: top 0.3s ease-in-out;
 }
   .card:hover .card-menu{
@@ -438,8 +438,14 @@ form.searchbutton button{
   color: #FE6C6C;
 }
 
+.in-stock{
+  color: #82D8C6;
+}
+
 .card-body{
   position: absolute;
+  left: 0;
+  height: 15%;
   bottom: 0;
   color: #ffffff;
   z-index: 1;
@@ -448,6 +454,40 @@ form.searchbutton button{
   .card:hover .card-body{
     bottom: 25%; 
   }
+  .card-body > p {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0; 
+  }
+  .card-body > h1{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 2px;
+    margin-bottom: 20px;
+    transition: bottom 0.05s ease-in-out;
+  }
+  .card:hover .card-body > h1{
+    margin-bottom: 0;
+  }
+
+  .card-body > button{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0.5rem 0;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+  }
+
+.card-price{
+  text-decoration: line-through;
+}
+.card-discount-price{
+  color: #20D3C2 !important;
+  font-size: 24px !important;
+}
+
 
 .card-background{
   position: absolute;
