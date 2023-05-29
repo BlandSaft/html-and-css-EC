@@ -390,10 +390,25 @@ form.searchbutton button{
 
 .row{
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .fa-cart-shopping{
   font-size: 0.9em;
+}
+
+.add-to-cart{
+  position: absolute;
+  right: 40px;
+  top: 95px;
+  opacity: 1;
+  z-index: 3;
+  opacity: 0;
+
+}
+
+.card-menu:hover .add-to-cart{
+  opacity: 1;
 }
 
 .card{
@@ -503,3 +518,65 @@ form.searchbutton button{
     opacity: 0.85;
   }
 
+/* 30% OFF BANNER */
+
+.big-banner{
+ background-color: #CCCCCC;
+}
+
+.banner-off{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 418px;
+  width: 255px;
+  background-color: #20D3C2;
+}
+
+  .banner-off h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FFFFFF;
+  }
+  .banner-off h1 span{
+    font-size: 36px;
+  }
+  .banner-off p{
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .banner-off button{
+    background-color: #0E153D;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+  }
+
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  height: 418px;
+  justify-content: center;
+}
+
+  .banner-text p{
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .banner-text button{
+    font-weight: bold;
+    max-width: 170px;
+    font-size: 18px;
+    color: #20D3C2;
+    background-color: #FFFFFF;
+    padding: 13px 0px;
+    border-radius: 30px;
+    border: none;
+  }
