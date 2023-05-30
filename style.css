@@ -386,7 +386,7 @@ form.searchbutton button{
   font-weight: normal;
 }
 
-/* NEW ARRIVALS */
+/* NEW ARRIVALS & FEATURED PRODUCTS */ 
 
 .row{
   justify-content: center;
@@ -518,7 +518,21 @@ form.searchbutton button{
     opacity: 0.85;
   }
 
-/* 30% OFF BANNER */
+  .card-stars{
+  display: flex;
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  list-style: none;
+  color: #20D3C2;
+  z-index: 4;
+  transition: 0.3s ease-in-out;
+}
+  .card:hover .card-stars{
+    top: 89%;
+  }
+
+/* 30% OFF BANNER & FLASHSALE*/
 
 .big-banner{
  background-color: #CCCCCC;
@@ -579,4 +593,79 @@ form.searchbutton button{
     padding: 13px 0px;
     border-radius: 30px;
     border: none;
+  }
+
+/* FLASHSALE */
+
+.big-banner-flashsale{
+  background-color: #0E153D;
+ }
+
+ .banner-flashsale{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 265px;
+  width: 255px;
+  background-color: #20D3C2;
+}
+  .banner-flashsale h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .banner-flashsale h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+.banner-countdown{
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  height: 418px;
+  justify-content: center;
+  align-items: center;
+}
+  .banner-countdown ul{
+    display: flex;
+    list-style: none;
+  }
+  .banner-countdown ul div{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 109px;
+    height: 109px;
+    color: #20D3C2;
+    border-radius: 50%;
+    font-weight: bolder;
+    margin: 10px;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-countdown ul div h2{
+    margin: 0;
+  }
+  .banner-countdown ul div p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E153D;
+    margin: 0;
+  }
+
+  .banner-countdown button{
+    background-color: #FFFFFF;
+    color: #20D3C2;
+    border: none;
+    max-width: 300px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
   }
