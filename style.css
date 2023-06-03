@@ -274,7 +274,7 @@ form.searchbutton button{
   display: grid;
   grid-template-columns: repeat(5, 214px);
   grid-template-rows: repeat(3, 214px);
-  gap:20px;
+  gap:10px;
   justify-content: center;
   margin: 50px;
 }
@@ -569,6 +569,10 @@ form.searchbutton button{
     font-weight: 500;
     padding: 10px 15px;
   }
+  .banner-off button:hover{
+    background-color: white;
+    color: #20D3C2;
+  }
 
 .banner-text{
   display: flex;
@@ -593,6 +597,9 @@ form.searchbutton button{
     padding: 13px 0px;
     border-radius: 30px;
     border: none;
+  }
+  .banner-text button:hover{
+    color: #16867b;
   }
 
 /* FLASHSALE */
@@ -668,6 +675,9 @@ form.searchbutton button{
     font-size: 18px;
     font-weight: 600;
     padding: 10px 20px;
+  }
+  .banner-countdown button:hover{
+    color: #16867b;
   }
 
   /* TOP SELLERS */
@@ -930,6 +940,9 @@ transition: bottom 0.3s ease-in-out;
     border-radius: 20px;
     border: none;
   }
+  .subscribe-button button:hover{
+    color: #16867b;
+  }
 
 .subscribe-container-2{
   background-color: #CCCCCC;
@@ -946,6 +959,7 @@ transition: bottom 0.3s ease-in-out;
 
 .copyright{
   display: flex;
+  font-size: 16px;
   align-items: center;
   height: 80px;
   color: #ffffff;
