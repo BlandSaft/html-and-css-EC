@@ -871,3 +871,82 @@ transition: bottom 0.3s ease-in-out;
 .card-menu-top-sellers-2:hover .add-to-cart{
   opacity: 1;
 }
+
+/* SUBSCRIBE NOW BANNER */
+
+.big-banner-2{
+  background-color: #F6F6F6;
+  margin-bottom: 0;
+  z-index: 5;
+}
+.subscribe-container{
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 36px;
+}
+  .subscribe-container h1{
+    font-weight: bolder;
+  }
+  .subscribe-container span{
+    color: #20D3C2;
+  }
+
+  .subscribe-container p{
+    font-size: 16px;
+    color: #0E153D;
+    max-width: 70%;
+  }
+
+.subscribe-button{
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+}
+
+  .subscribe-button input{
+    height: 46px;
+    border: 1px solid #E3E3E3;
+    width: 445px;
+    border-radius: 20px;
+    padding-left: 20px;
+  }
+  .subscribe-button input::placeholder{
+    color: #AAAAAA;
+    
+  }
+
+  .subscribe-button button{
+    position: relative;
+    top: 5px;
+    left: -110px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 107px;
+    height: 36px;
+    background-color: #20D3C2;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+  }
+
+.subscribe-container-2{
+  background-color: #CCCCCC;
+}
+
+/* COPYRIGHT */
+.big-banner-3{
+  background-color: #080C24;
+}
+
+.special-row{
+  margin: 0;
+}
+
+.copyright{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  color: #ffffff;
+}
